@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title title="College administration">College Administration</title>
+  <link rel="shortcut icon" type="image/png" href="https://image.freepik.com/free-vector/modern-education-concept-with-flat-design_23-2147919753.jpg">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: teal;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  color: white;
+  cursor: pointer;
+  width: 22%;
+  text-align: center;
+  font-size: 20px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+}
+input[type=submit]:hover {
+  background-color: #595959;
+}
+body {position: relative;
+    background-image: url("https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<div>
+  <h1 style="font-weight: bold;font-family:  Lucida Sans;font-size: 45px;color: black;text-align: center;">STUDENT PORTAL</h1>
+  <a href="./enroll_into_department.html">
+
+  <div class="row" style="text-align: center;">
+    <input type="submit" value="Enroll into a department">
+  </div></a>
+<br>
+<a href="./dept_change_request.html">
+  <div class="row" style="text-align: center;">
+    <input type="submit" value="Change your department">
+  </div></a>
+  <br>
+  <a href="./section_change_request.html">
+  <div class="row" style="text-align: center;">
+    <input type="submit" value="Change your section">
+  </div></a>
+  <br>
+  <a href="./view_details.html">
+  <div class="row" style="text-align: center;">
+    <input type="submit" value="View details">
+  </div></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Details</title>
+  <link rel="shortcut icon" type="image/png" href="https://image.freepik.com/free-vector/modern-education-concept-with-flat-design_23-2147919753.jpg">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  width: 22%;
+  text-align: center;
+  font-size: 20px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+}
+input[type=submit]:hover {
+  background-color: #595959;
+}
+body {
+  background-image: url("http://static.simpledesktops.com/uploads/desktops/2013/08/09/space-RGB-01.png");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<div>
+  <h1 style="font-weight: bold;font-family: Lucida Sans;font-size: 25px;color: white;text-align: center;">VIEW DETAILS</h1>
+  <a href="./view_department_details.html">
+  <div class="row" style="text-align: center;">
+    <input type="submit" value="Fetch Department Details">
+  </div></a>
+<br><a href="./view_student_details.html">
+  <div class="row" style="text-align: center;">
+    <input type="submit" value="List details of a student">
+  </div></a>
+  <br>
+  <a href="./index.html"><div class="row" style="text-align: center;">
+    <input type="submit" value="Go Back">
+  </div></a>
+</div>
+</body>
+</html>
